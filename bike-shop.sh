@@ -139,11 +139,11 @@ RETURN_MENU() {
         then
           # send to main menu
           MAIN_MENU "You do not have that bike rented."
+        else
+          echo Rental ID $RENTAL_ID found
         fi
-
       fi
     fi
-
   fi
 
   
