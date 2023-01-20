@@ -440,3 +440,33 @@ history -a
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "Learning Bash and SQL by Building a Bike Rental Shop"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull remote -M
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull remote main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull origin main --merge-unrelated-histories
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull origin main --allow-unrelated-histories
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
