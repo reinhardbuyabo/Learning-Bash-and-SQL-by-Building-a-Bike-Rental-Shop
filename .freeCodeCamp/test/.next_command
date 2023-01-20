@@ -149,3 +149,6 @@ psql --username=freecodecamp --dbname=bikes
 ./bike-shop.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
