@@ -100,8 +100,13 @@ RETURN_MENU() {
   CUSTOMER_ID=$($PSQL "SELECT customer_id FROM customers WHERE phone='$PHONE_NUMBER'")
 
   # if not found
+  if [[ -z $CUSTOMER_ID ]]
+  then
+    # send to main menu
+    
+  fi
 
-  # send to main menu
+  
 
 }
 
